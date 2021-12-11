@@ -31,6 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'charity.apps.CharityConfig',
+    'users.apps.UsersConfig',
+    'request.apps.RequestConfig',
+    'payments.apps.PaymentsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
