@@ -11,5 +11,5 @@ class Payment(models.Model):
         return str(self.payID)
 pass
 
-class MoneyRequest(models.Model):
+class MoneyRequest(Payment):
     amount = models.IntegerField(default=0)
